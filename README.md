@@ -17,13 +17,13 @@ Visual Studio Code (vscode) 上で `.dll` ファイルを使用する AviUtl ス
 0. このフォルダをコピーする
 1. `src` フォルダにある `main.cpp` を編集する
 2. `main.cpp` をビルドする (デフォルトショートカット: `Ctrl + Shift + B`)
-3. `build` フォルダに `main.dll` が生成される
+3. `src` フォルダに `main.dll` が生成される
 4. `test.anm` を編集する
 5. AviUtl の `script` フォルダに作成した `.dll` ファイルと `.anm` ファイルを置く
 6. AviUtl を起動し、アニメーション効果から作成したスクリプトを読み込む
 
 ## 謝辞
-`.dll` ファイルを作成する `test.cpp` ファイルの中身は [SEED264](https://github.com/SEED264) さんが作成したものを流用させていただいています。
+`.dll` ファイルを作成する `test.cpp` ファイルの中身は [SEED264](https://github.com/SEED264) さんが[作成したもの](https://github.com/SEED264/AUL_DLL_Sample)を流用させていただいています。
 
 ## リンク集
 - [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
