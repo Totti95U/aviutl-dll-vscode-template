@@ -1,7 +1,7 @@
 ## 概要
 Visual Studio Code (vscode) 上で `.dll` ファイルを使用する AviUtl スクリプトを作るためのひな形です。
 
-このリポジトリを clone するか、(Releases)[https://github.com/Totti95U/aviutl-dll-vscode-template/releases] にある `.zip` ファイルを解凍することで、すぐに使える状態になります。
+右上の `Use this template` から新しくリポジトリを作成する、このリポジトリを `clone` する、または (Releases)[https://github.com/Totti95U/aviutl-dll-vscode-template/releases] にある `.zip` ファイルを解凍することで、すぐに使える状態になります。
 
 ## 準備
 事前準備として以下が必要です
@@ -14,13 +14,13 @@ Visual Studio Code (vscode) 上で `.dll` ファイルを使用する AviUtl ス
 
 ## 使い方
 基本的な使い方は以下の通り
-0. このフォルダをコピーする
-1. `src` フォルダにある `main.cpp` を編集する
-2. `main.cpp` をビルドする (デフォルトショートカット: `Ctrl + Shift + B`)
-3. `src` フォルダに `main.dll` が生成される
-4. `test.anm` を編集する
-5. AviUtl の `script` フォルダに作成した `.dll` ファイルと `.anm` ファイルを置く
-6. AviUtl を起動し、アニメーション効果から作成したスクリプトを読み込む
+1. `Use this template` するなり、 このリポジトリを `clone` するなり [Releases](https://github.com/Totti95U/aviutl-dll-vscode-template/releases) の `.zip` を解凍するなり、コピーなりする
+2. `src` フォルダにある `main.cpp` を編集する
+3. `main.cpp` をビルドする (デフォルトショートカット: `Ctrl + Shift + B`)
+4. `src` フォルダに `main.dll` が生成される
+5. `test.anm` を編集する
+6. AviUtl の `script` フォルダに作成した `.dll` ファイルと `.anm` ファイルを置く
+7. AviUtl を起動し、アニメーション効果から作成したスクリプトを読み込む
 
 ## 謝辞
 `.dll` ファイルを作成する `test.cpp` ファイルの中身は [SEED264](https://github.com/SEED264) さんが[作成したもの](https://github.com/SEED264/AUL_DLL_Sample)を流用させていただいています。
