@@ -1,11 +1,11 @@
 ## 概要
 Visual Studio Code (vscode) 上で `.dll` ファイルを使用する AviUtl スクリプトを作るためのひな形です。
 
-右上の `Use this template` から新しくリポジトリを作成する、このリポジトリを `clone` する、または (Releases)[https://github.com/Totti95U/aviutl-dll-vscode-template/releases] にある `.zip` ファイルを解凍することで、すぐに使える状態になります。
+右上の `Use this template` から新しくリポジトリを作成する、このリポジトリを `clone` する、または [Releases](https://github.com/Totti95U/aviutl-dll-vscode-template/releases) にある `.zip` ファイルを解凍することで、すぐに使える状態になります。
 
 ## 準備
 事前準備として以下が必要です
-- C/C++ コンパイラ (このプロジェクトの作成時は (i686-14.2.0-release-win32-dwarf-msvcrt-rt_v12-rev1)[https://github.com/niXman/mingw-builds-binaries/releases/tag/14.2.0-rt_v12-rev1] を使用しました)
+- C/C++ コンパイラ (このプロジェクトの作成時は [i686-14.2.0-release-win32-dwarf-msvcrt-rt_v12-rev1](https://github.com/niXman/mingw-builds-binaries/releases/tag/14.2.0-rt_v12-rev1) を使用しました)
     - 32bit 版のコンパイラを使用してください (AviUtl が 32bit アプリケーションのため)
     - このプロジェクトのコンフィグをそのまま使用したい場合は、用意した MinGW-W64 のパスを `PATH` に追加し、`g++ --version` でコンパイラのバージョンが表示されることを確認してください
 - vscode の拡張機能のインストール
