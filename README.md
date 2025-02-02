@@ -23,7 +23,7 @@ Visual Studio Code (vscode) 上で `.dll` ファイルを使用する AviUtl ス
 6. AviUtl を起動し、アニメーション効果から作成したスクリプトを読み込む
 
 ## 謝辞
-`.dll` ファイルを作成する `test.cpp` ファイルの中身は (SEED264)[https://github.com/SEED264] さんが作成したものを流用させていただいています。
+`.dll` ファイルを作成する `test.cpp` ファイルの中身は [SEED264](https://github.com/SEED264) さんが作成したものを流用させていただいています。
 
 ## リンク集
 - [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
